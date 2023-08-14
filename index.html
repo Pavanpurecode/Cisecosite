@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-1</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <!-- font awesme link --->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+          <div class="navbar-logo">Ciesco</div>
+          <ul class="navbar-menu">
+            <li>
+              <a href="#">Men</a>
+            </li>
+            <li>
+              <a href="#">Women</a>
+            </li>
+            <li>
+              <a href="#">Beauty</a>
+            </li>
+            <li>
+              <a href="#">Sport</a>
+            </li>
+            <li>
+              <a href="#">Templates</a>
+              <ul class="sub-menu">
+                <li><a href="#">Sub Item 1</a></li>
+                <li><a href="#">Sub Item 2</a></li>
+                <li><a href="#">Sub Item 3</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Explore</a>
+              <ul class="sub-menu">
+                <li><a href="#">Sub Item 1</a></li>
+                <li><a href="#">Sub Item 2</a></li>
+                <li><a href="#">Sub Item 3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-icons">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-user"></i>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </nav>
+<hr>
+<div class="divcheck">
+  <h1> Checkout</h1>
+  <p> Homepage / Clothing Categories / <u>Checkout</u> </p>
+</div>
+ 
+  <!----------  Main Content  ----------------->
+  <div class="main-content">
+<div class="left-content">
+<div class="left-1"> 
+  <i class="fas fa-user"></i> 
+  <span class="subheading">Contact info <i class="fas fa-check"></i></span>
+  <button class="btn"> change</button>
+  <p class="details">Enrico Smith +855-866-7744</p>
+
+</div>
+<div class="left-2">
+  <i class="fa-light fa-truck"></i>
+  <span class="subheading">Shipping Address<i class="fas fa-check"></i></span>
+  <button class="btn"> change</button>
+  <p class="details">St.Paul's Road, Norris, SD57560, Dakota, USA</p>
+
+</div>
+<div class="left-3">
+  <label class="fn">First name</label>
+  <label class="right">Last name</label>
+  <p><input type="text"  value="colo">
+    <input type="text" value="enrico"></p>
+  
+  <br>
+  <label class="ad">Address</label>
+  <label class="right">Apt, Suite *</label>
+  <p>
+    <input type="text"  value="123, Dream Avenue, USA">
+    <input type="text" value="55U-DD5">
+  </p>
+  <label>City</label>
+  <label class="rightt">Country</label>
+  <p>
+    <input type="text"  value="Norrris">
+    <select id="country">
+      <option >United States</option>
+      <option >UK</option>
+      <option >China</option>
+      <option >India</option>
+    </select>
+  </p>
+  
+<br>
+<span class="adrs">Address Type</span>
+<p>
+  <label class="radio">
+    <input type="radio" name="addressType" value="home" checked class="r1">
+    Home (All Day Delivery)
+  </label>
+  <label class="radio">
+    <input type="radio" name="addressType" value="office" class="r2">
+    Office (Delivery 9AM - 5PM)
+  </label>
+</p>
+
+<br>
+<button class="btn2">Save and Next to Payment</button>
+<span>Cancel</span>
+</div>
+
+<div class="left-4">
+  <i class="fa-thin fa-credit-card"></i> 
+  <span>Payment Method<i class="fas fa-check"></i></span>
+  <button class="btn"> change</button>
+  <p> Google / Apple Wallet xxx-xxx-xx55</p>
+</div>
+</div>
+
+<div class="right-content">
+  <span class="summary">Order Summary</span>
+  <div class="cardmain">
+
+    <div class="cards">
+      <div class="card-item">
+        <div class="img1">
+          <img src="images/hoodie1.png" width="80px" height="100px" alt="hoodie">
+        </div>
+        <div class="right-11">
+          <span class="name">Rey Nylon Backpack</span>
+          
+          <p>
+            <span><i class="fa-light fa-fill-drip"></i> Black</span>
+            <span><i class="fa-light fa-up-right-and-down-left-from-center"></i> 2XL</span>
+          </p>
+          <!-- <button class="quantity-button">-</button>
+          <span class="quantity">1</span>
+          <button class="quantity-button">+</button> -->
+        </div>
+        <div class="right-12">
+          
+          <button class="bt">$74</button>
+          <br>
+          <br>
+          <span class="remove"> Remove</span>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="cards">
+          <div class="card-item">
+            <div class="img1">
+              <img src="images/cap.png" width="80px" height="100px" alt="hoodie">
+            </div>
+            <div class="right-11">
+              <span class="name">Waffle Knit Beanie</span>
+              
+              <p>
+                <span><i class="fa-light fa-fill-drip"></i> Black</span>
+                <span><i class="fa-light fa-up-right-and-down-left-from-center"></i> 2XL</span>
+              </p>
+              <!-- <button class="quantity-button">-</button>
+              <span class="quantity">1</span>
+              <button class="quantity-button">+</button> -->
+            </div>
+            <div class="right-12">
+              
+              <button class="bt">$132</button>
+              <br>
+              <br>
+              <span class="remove"> Remove</span>
+            </div>
+            </div>
+            </div>
+
+            <div class="cards">
+              <div class="card-item">
+                <div class="img1">
+                  <img src="images/bag.png" width="80px" height="100px" alt="hoodie">
+                </div>
+                <div class="right-11">
+                  <span class="name">Travel Pet Carrier</span>
+                  
+                  <p>
+                    <span><i class="fa-light fa-fill-drip"></i> Black</span>
+                    <span><i class="fa-light fa-up-right-and-down-left-from-center"></i> 2XL</span>
+                  </p>
+                  <!-- <button class="quantity-button">-</button>
+                  <span class="quantity">1</span>
+                  <button class="quantity-button">+</button> -->
+                </div>
+                <div class="right-12">
+                  
+                  <button class="bt">$28</button>
+                  <br>
+                  <br>
+                  <span class="remove"> Remove</span>
+                </div>
+                </div>
+                </div>
+      </div>
+  
+  <div class="right-bottom">
+<div class="right-4">
+    <p class="disc">Discount code</p>
+    <input type="text"> <button class="apply-btn">Apply</button>
+    <p class="p-left">Subtotal<span class="s1">$249.00</span> </p>
+    <p class="p-left">Shipping Estimate<span class="s2">$9.00</span> </p>
+    <p class="p-left">Tax Estimate<span class="s3">$24.00</span> </p>
+    <p class="order"> Order Total<span class="s4">$277.00</span> </p>
+    <button class="confirm-btn">Confirm order</button>
+    <p class="note"><i class="fa-light fa-circle-exclamation"></i> Learn more <u>Taxes</u> and <u>Shipping</u> Information</p>
+  </div>
+  </div>
+  
+</div>
+
+  </div>
+
+<!--------------Footer content ---------------->
+  <footer class="footer">
+    <div class="footer-column col1">
+      <div class="footer-row">Ciesco</div>
+      <div class="footer-row"><i class="fab fa-facebook "></i> Facebook</div>
+      <div class="footer-row"><i class="fab fa-youtube"></i> YouTube</div>
+      <div class="footer-row"><i class="fab fa-telegram"></i> Telegram</div>
+      <div class="footer-row"><i class="fab fa-twitter"></i> Twitter</div>
+    </div>
+    <div class="footer-column">
+      <div class="footer-row.bold">Getting Started</div>
+      <div class="footer-row">Release Notes</div>
+      <div class="footer-row">Upgrade Guide</div>
+      <div class="footer-row">Browser Support</div>
+      <div class="footer-row">Dark Mode</div>
+    </div>
+    <div class="footer-column">
+        <div class="footer-row.bold">Explore</div>
+        <div class="footer-row">Proto typing</div>
+        <div class="footer-row">Design Systems</div>
+        <div class="footer-row">Pricing</div>
+        <div class="footer-row">Security</div>
+      </div>
+      <div class="footer-column">
+        <div class="footer-row.bold">Resources</div>
+        <div class="footer-row">Best Practices</div>
+        <div class="footer-row">Support</div>
+        <div class="footer-row">Developers</div>
+        <div class="footer-row">Learn Design</div>
+      </div>
+      <div class="footer-column col2">
+        <div class="footer-row.bold">Community </div>
+        <div class="footer-row">Discussion Forums </div>
+        <div class="footer-row">Code of conduct</div>
+        <div class="footer-row">Contributing</div>
+        <div class="footer-row">Api reference</div>
+      </div>
+  </footer>
+</body>
+</html>

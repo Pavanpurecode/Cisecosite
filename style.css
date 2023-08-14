@@ -1,0 +1,383 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+ 
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 270px;
+  margin-left: 20px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+  position: relative;
+  list-style-type: none;
+}
+
+.navbar-menu li:last-child {
+  margin-right: 0;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: black;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 10px;
+  width: 150px;
+}
+
+.navbar-menu li:hover .sub-menu {
+  display: block;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 190px;
+}
+
+.navbar-icons i {
+  font-size: 20px;
+  margin-right: 40px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  
+}
+hr {
+  opacity: 0.2;
+}
+h1 {
+  margin-top: 70px;
+}
+.divcheck {
+  margin-left: 240px;
+}
+ 
+
+/* Footer CSS Code */
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-top: 1px solid rgb(217, 217, 217);
+  padding-top: 50px;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .col1{
+  margin-left: 170px;
+  margin-right: 0px;
+  padding: 0;
+}
+
+.footer .col2{
+  margin-right: 170px;
+  margin-left: 0px;
+  padding: 0;
+}
+
+
+.footer-row {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-row i {
+  margin-right: 10px;
+}
+
+
+
+/* Middle part */
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  margin-right:100px;
+  margin-left: 100px;
+
+  
+}
+.main-content .left-content {
+  margin-left: 130px;
+  margin-right: 0px;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.main-content .right-content {
+  margin-right: 90px;
+  margin-left: 0px;
+  border-left: 1px solid rgb(179, 179, 179);
+  padding-left: 50px;
+}
+
+.left-content .left-1 {
+  font-size: 15px;
+  border:1px solid rgb(179, 179, 179);
+  border-radius: 10px;
+  /* padding:  0px 1px 17px; */
+  padding:  15px 10px 5px 15px;
+}
+
+.left-content .left-2 {
+  font-size: 15px;
+  border:1px solid rgb(153, 153, 153);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding:  15px 10px 5px 15px;
+  margin-top: 25px;
+  
+}
+.left-content .left-3 label  {
+  margin-left: 25px;
+  margin-bottom: -40px;
+
+ 
+}
+ 
+ .left-content .left-3 .right {
+
+  margin-left: 290px;
+ 
+} 
+.left-content .left-3 .rightt {
+
+  margin-left: 300px;
+ 
+} 
+.left-content .subheading {
+  text-transform: uppercase;
+}
+ .left-content .details {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 0;
+ }
+.left-content .left-3 .adrs {
+  margin-left: 40px;
+}
+.left-content .left-3 input, .left-content .left-3 select  {
+ 
+  padding: 9px 120px 9px 5px;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  margin-left: 20px;
+}
+ .left-content .left-3 .r1 {
+  margin-left: 0px;
+ }
+ .left-content .left-3 .r2 {
+  margin-left: 40px;
+ }
+
+ 
+.left-content .btn {
+ margin-left: 300px;
+ padding: 10px;
+ border: 1px solid transparent;
+ border-radius: 5px;
+}
+
+.left-content .left-3 {
+  border: 1px solid red;
+  padding-bottom: 20px;
+  border:1px solid rgb(179, 179, 179);
+  border-top: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 15px;
+}
+
+.left-content .left-4 {
+  margin-top: 25px;
+  margin-bottom: 70px;
+  padding:  15px 50px 5px 15px;
+  border-radius: 10px;
+  border:1px solid rgb(179, 179, 179);
+
+}
+
+.left-content span {
+  padding-right:90px;
+}
+
+.left-content .left-3 .btn2 {
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px 25px ;
+
+}
+
+.right-bottom {
+  width: 400px;
+  /* border: 1px solid blue; */
+  padding-left: 5px;
+  margin-top: 50px;
+}
+.right-bottom span {
+  align-items: right;
+} 
+  .right-bottom .confirm-btn {
+    padding: 10px 140px;
+    margin-left: 10px;
+    border: transparent;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+  }
+  .right-bottom .note {
+    font-size: 11px;
+    margin-left: 90px;
+  }
+  .right-bottom .apply-btn {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: transparent;
+    background-color: rgb(230, 230, 230);
+    margin-top: 0;
+  }
+
+  .right-bottom input {
+    width: 270px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    margin-top: 0px;
+  }
+  .right-bottom .disc {
+    font-weight:bold;
+    font-size: 12px;
+  }
+  .right-bottom span {
+    margin-left: 220px;
+  }
+  .right-bottom .s1 {
+    margin-left:250px ;
+  }
+  .right-bottom .s2 {
+    margin-left:190px ;
+  }
+  .right-bottom .s4 {
+    margin-left:240px ;
+  }
+   
+   .right-bottom .order {
+    font-weight: bold;
+  font-size: 14px;
+   }
+  
+  
+
+   /* cards */
+   
+   .cards {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+   }
+ 
+   .card-item {
+     display: flex;
+     gap: 40px;
+     align-items: center;
+   }
+ 
+   .img1 img {
+     width: 110px;
+     height: 110px;
+   }
+ 
+   .right-11, .right-12 {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+   }
+ 
+ 
+ .right-content .cardmain {
+  margin-top: 30px;
+ }
+ 
+ .right-content .cardmain .cards {
+  border-bottom: 1px solid rgb(203, 203, 203);
+  padding-bottom: 25px;
+  padding-top: 10px;
+ }
+
+ .right-content .right-11 .name , .right-content .summary {
+  font-weight: 600;
+ }
+
+
+ .right-content .right-12 .bt {
+  padding: 3px 2px;
+  border-radius: 10px;
+  border: 1px solid greenyellow;
+  background-color: transparent;
+  color: greenyellow;
+ }
+
+ .right-content .right-12 .remove {
+  font-size: 13px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: rgb(9, 9, 183);
+ }
+
+ .right-content .right-11 p span {
+  font-size: 12px;
+  border-top: 0;
+  padding-top: 0;
+
+ }
+ .cards .card-item img {
+  padding-left: 0px;
+  margin-right: -20px;
+ }
